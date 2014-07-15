@@ -22,5 +22,5 @@ $path <- location of aggregated data
 
 Script is currently set up to run experiments using 100 tree Random Forests via 10 times 10 fold cross validation. Other models can be trained by uncommenting models below line 182.
 
-Additional notes:
+Additional notes:  
 *If you wish to run experiments over a sample of the aggregated data, uncomment lines 150-151.
