@@ -4,7 +4,7 @@ ____
 Aggregate data by beneficiary:
 This step is needed prior to running experiments. Identifies candidate beneficiaries and joins in needed data.
 
-$year <- year of data to use
+$year <- year of data to use  
 $path <- location of data
 
 	sh AggregateSIDData $year $path
@@ -15,7 +15,7 @@ Note that running from command line will perform data preprocessing steps each r
 
 To run from command line:
 
-$year <- year of data to use
+$year <- year of data to use  
 $path <- location of aggregated data
 
 	RScript run_experiments.R $year $path
